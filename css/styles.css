@@ -2594,7 +2594,7 @@ input[type="button"].btn--primary:focus {
     content: "";
     display: block;
     height: 100%;
-    background-color: var(--color-gray-18);
+    background-color: var(--color-gray-18); 
 }
 
 .skill-bars-fat li .percent5::before {
@@ -2647,22 +2647,27 @@ input[type="button"].btn--primary:focus {
 
 .skill-bars-fat li .percent65::before {
     width: 65%;
+    background-color:#CD0000;
 }
 
 .skill-bars-fat li .percent70::before {
     width: 70%;
+    background-color:#9370DB;
 }
 
 .skill-bars-fat li .percent75::before {
     width: 75%;
+    background-color:#9932CC;
 }
 
 .skill-bars-fat li .percent80::before {
     width: 80%;
+    background-color:#008B00;
 }
 
 .skill-bars-fat li .percent85::before {
     width: 85%;
+    background-color: #EEEE00;
 }
 
 .skill-bars-fat li .percent90::before {
